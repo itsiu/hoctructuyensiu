@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>Học trực tuyến - Đại học Quốc tế Sài Gòn</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.siu.edu.vn/App_Themes/Default/images/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="https://source.zoom.us/1.7.5/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="https://source.zoom.us/1.7.5/css/react-select.css"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<style>
+    body {
+        padding-top: 50px;
+    }
+</style>
+
+<nav id="nav-tool" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="font-weight: bold; color: #fff;">SIU - ONLINE MEETING</a>
+        </div>
+        <div id="navbar">
+            <form class="navbar-form navbar-right" id="meeting_form">
+                <div class="form-group">
+                    <input type="text" name="display_name" id="display_name" value="" placeholder="Your Name" class="form-control" autofocus required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="meeting_number" id="meeting_number" value="" placeholder="Meeting Number" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="meeting_pwd" id="meeting_pwd" value="" placeholder="Meeting Password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <select id="meeting_role" class="selectpicker">
+                        <option value=0>Student</option>
+                        <option value=1>Lecturer</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-danger" id="join_meeting"><span class="glyphicon glyphicon-send"></span>&nbsp; Join Meeting</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<script src="https://source.zoom.us/1.7.5/lib/vendor/react.min.js"></script>
+<script src="https://source.zoom.us/1.7.5/lib/vendor/react-dom.min.js"></script>
+<script src="https://source.zoom.us/1.7.5/lib/vendor/redux.min.js"></script>
+<script src="https://source.zoom.us/1.7.5/lib/vendor/redux-thunk.min.js"></script>
+<script src="https://source.zoom.us/1.7.5/lib/vendor/jquery.min.js"></script>
+<script src="https://source.zoom.us/1.7.5/lib/vendor/lodash.min.js"></script>
+
+<script src="https://source.zoom.us/zoom-meeting-1.7.5.min.js"></script>
+<script src="js/tool.js"></script>
+<script src="js/index.js"></script>
+
+<script>
+   
+</script>
+</body>
+</html>
