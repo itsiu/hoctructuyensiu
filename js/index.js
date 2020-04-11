@@ -28,7 +28,7 @@
             meetingNumber: parseInt(document.getElementById('meeting_number').value),
             userName: document.getElementById('display_name').value,
             passWord: document.getElementById('meeting_pwd').value,
-            leaveUrl: "http://www.siu.edu.vn/",
+            leaveUrl: "https://itsiu.github.io/hoctructuyensiu/",
             role: parseInt(document.getElementById('meeting_role').value, 10)
         };
 
@@ -44,7 +44,7 @@
         });
 
         ZoomMtg.init({
-            leaveUrl: 'http://www.siu.edu.vn/',
+            leaveUrl: 'https://itsiu.github.io/hoctructuyensiu/',
             isSupportAV: true,
             success: function () {
                 ZoomMtg.join(
